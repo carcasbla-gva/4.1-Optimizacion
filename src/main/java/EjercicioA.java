@@ -15,7 +15,6 @@ public class EjercicioA {
         // --- Antes: List.contains ---
         int aciertosLista = 0;
         long t1 = System.nanoTime();
-        Set<String> indiceEmails = new HashSet<>(emails);
         for (int i = 0; i < 20_000; i++) {
             if (emails.contains(objetivo)) {
                 aciertosLista++;
